@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Scraping in the deep</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://kit.fontawesome.com/d8633acbd2.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-dark">
+      <a href="../index.html" class="navbar-brand roboto big-title">
+        TONSSER YOUTH SOCCER
+      </a>
+      <div class="form-inline roboto text-white mr-2">
+        Fall 2020
+      </div>
+    </nav>
+
+    <div class="container">
+      <h2 class="mt-4 mb-4"> U13 Girls Division</h1>
+      <div class="card mt-4 league-box">
+        <div class="card-header roboto">
+          table.league-table
+        </div>
+        <table class="table table-hover league-table mb-0">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">id</th>
+              <th scope="col">Name</th>
+              <th scope="col">Logo</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">001</th>
+              <td>FC Anchor</td>
+              <td><i class="fas fa-anchor"></i></td>
+            </tr>
+            <tr>
+              <th scope="row">002</th>
+              <td>White Doves</td>
+              <td><i class="fas fa-dove"></i></td>
+            </tr>
+            <tr>
+              <th scope="row">003</th>
+              <td>Copenhagen Bolts</td>
+              <td><i class="fas fa-bolt"></i></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="card mt-4 league-box">
+        <div class="card-header roboto">
+          table.match-table
+        </div>
+        <table class="table table-hover match-table mb-0">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">id</th>
+              <th scope="col">Home</th>
+              <th scope="col">Away</th>
+              <th scope="col">Result</th>
+              <th scope="col">Date</th>
+              <th scope="col">Time</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">001</th>
+              <td>White Doves</td>
+              <td>Copenhagen Bolts</td>
+              <td>0-3</td>
+              <td>24 Sep 2020</td>
+              <td>13:00</td>
+            </tr>
+            <tr>
+              <th scope="row">002</th>
+              <td>FC Anchor</td>
+              <td>White Doves</td>
+              <td>1-1</td>
+              <td>07 Oct 2020</td>
+              <td>12:30</td>
+            </tr>
+            <tr>
+              <th scope="row">003</th>
+              <td>Copenhagen Bolts</td>
+              <td>FC Anchor</td>
+              <td></td>
+              <td>27 Oct 2020</td>
+              <td>12:30</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script>
+      $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+      })
+    </script>
+  </body>
+</html>

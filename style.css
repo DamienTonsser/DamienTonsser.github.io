@@ -1,0 +1,12 @@
+.roboto {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.card-header {
+  font-size: 0.9em !important;
+  padding-left: 1em !important;
+}
+
+nav {
+  background-color: #212529 !important;
+}
